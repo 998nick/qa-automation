@@ -31,7 +31,7 @@ public class LoginTest {
 		loginPage.preencherSenha(usuario.getSenha());
 		loginPage.clicarEntrar();
 		
-		assertTrue(driver.getCurrentUrl().contains("inventory"));
+		assertTrue(driver.getCurrentUrl().contains("xyz"));
 		
 		driver.quit();
 	}
