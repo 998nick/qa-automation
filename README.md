@@ -1,6 +1,6 @@
 # QA Automation Starter
 
-Projeto base de estudo: Java + Maven + JUnit 5, evoluindo para Selenium WebDriver e pipeline CI/CD com GitHub Actions.
+Projeto base: Java + Maven + JUnit 5, evoluindo para Selenium WebDriver e pipeline CI/CD com GitHub Actions.
 
 ## Estrutura
 ```
