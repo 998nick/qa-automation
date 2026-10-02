@@ -21,3 +21,10 @@ jobs:
 
       - name: Rodar os testes
         run: mvn test -Dheadless=true
+
+      - name: Publicar relatório de testes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-testes
+          path: target/surefire-reports/
